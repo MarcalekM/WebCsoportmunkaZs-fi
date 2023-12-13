@@ -6,3 +6,27 @@
 body {
     background-color: black;
 }
+
+.navbar {
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: auto;
+    padding: 30px;
+    border: 2px black solid;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+color: yellowgreen;
+background-color: black;
+border: 2px yellowgreen solid;
+}
